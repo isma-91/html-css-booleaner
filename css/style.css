@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 } */
+/* se la metto spariscono i puntini della lista, ma se non la metto non riesco a mettere l'header a tutta larghezza */
+
 body {
   font-family: "Times New Roman", Times, serif;
 }
@@ -22,15 +24,17 @@ header img {
 
 h1 {
   font-size: 60px;
+  margin: 0;
 }
 
 .credits {
   font-size: 20px;
   font-weight: 500;
   color: grey;
+  margin: 0 0 30px 0;
 }
 
-span {
+.writer {
   color: #2375d7;
 }
 
@@ -59,4 +63,32 @@ tr {
 
 .white {
   background-color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+footer {
+  color: grey;
+  font-weight: bold;
+}
+
+footer > div {
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  color: white;
+}
+
+.img1 {
+  background-image: url("../img/monitor.jpg");
+  width: 312px;
+  height: 208px;
+  color: white;
+}
+
+.img2 {
+  background-image: url("../img/graph.jpg");
+  width: 312px;
+  height: 208px;
 }
